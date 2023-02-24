@@ -1,0 +1,18 @@
+{
+    "extends": "./base.json",
+    "compilerOptions": {
+      "module": "esnext",
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "target": "es2017",
+      "sourceMap": true,
+      "outDir": "./dist",
+      "baseUrl": "./",
+      "incremental": true,
+      "strictBindCallApply": false,
+      "forceConsistentCasingInFileNames": false,
+      "paths": {}
+    }
+  }
